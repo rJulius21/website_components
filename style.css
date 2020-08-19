@@ -1,0 +1,36 @@
+html {
+}
+
+body {
+  color: #fff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.header {
+  background-color: black;
+}
+
+.main {
+  background-color: red;
+  height: 100vh;
+}
+
+.main__row {
+  background-color: #ccc;
+}
+
+.main__row:nth-child(odd) {
+  background-color: #555;
+}
+
+.footer {
+  background-color: black;
+}
